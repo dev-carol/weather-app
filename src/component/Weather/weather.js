@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Card, ListGroupItem, ListGroup } from "react-bootstrap";
+import AlertDanger from "../Alert/alertDanger";
 import "./styles.css"
 import axios from "axios";
-import AlertDanger from "../Alert/alertDanger";
+
 
 function Weather() {
   const [location, setLocation] = useState(false);
