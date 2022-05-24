@@ -4,7 +4,7 @@ import AlertTitle from "@mui/material/AlertTitle";
 import "./styles.css"
 export default function AlertDanger() {
   return (
-    <div classname="container">
+    <div className="container">
      
       <Alert severity="warning" className="warningbase">
         <AlertTitle className="title">Atenção</AlertTitle>
