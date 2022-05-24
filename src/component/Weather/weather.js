@@ -3,6 +3,7 @@ import { Card, ListGroupItem, ListGroup } from "react-bootstrap";
 import AlertDanger from "../Alert/alertDanger";
 import "./styles.css";
 import axios from "axios";
+import Loading from "../Loading/loading";
 
 function Weather() {
   const [location, setLocation] = useState(false);
@@ -71,7 +72,7 @@ function Weather() {
       </>
     );
   } else if (weather === false) {
-    return <>Carregando o clima...</>;
+    return <Loading />
   } else {
     return (
       <div className="container">
