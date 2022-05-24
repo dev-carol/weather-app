@@ -1,7 +1,5 @@
 import React from 'react';
-import Weather from './component/weather';
-
-
+import Weather from './component/Weather/weather';
 
 function App() {
   return (
